@@ -1,0 +1,26 @@
+.radio {
+    display: grid;
+    gap: 15px;
+    box-sizing: border-box;
+    padding: 16px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto ;
+}
+
+.player {
+    grid-column: 1 / 1;
+}
+
+.schedule {
+    grid-column: 2 / 2;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 10px;
+    background-color: beige;
+    list-style-type: none;
+    white-space: nowrap;
+}
