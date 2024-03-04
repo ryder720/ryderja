@@ -28,7 +28,7 @@ h2, .radio {
 
 ul, .menu {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     justify-content: left;
     gap: 10px;
     background-color: beige;
