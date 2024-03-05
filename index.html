@@ -18,5 +18,20 @@
         <p>I have projects up on the menu bar along with my GitHub. I'll add more project links
             under or on another page.
         </p>
+        <div class="project">
+        <h2>Project: Online Radio Station</h2>
+        <p>
+            I've started an online radio station to play ambient music during gaming sessions. It started as just an ice cast server but I ran into quality 
+            of life issues if I ever wanted to let my friends try out dj'ing or requesting songs. I looked around for a more all in one solution and ran into 
+            AzuraCast. I debated using a VPS to host it as plenty of VPS hosts (Linode, DigitalOcean, etc.) have one click solutions to launching it. My overall 
+            goal wasn't to fight my server trying to make a Dockerup file that would work with my Unraid setup.
+        </p>
+        <p>
+            My working setup ended up consisting of a vm using 4 logical cores, 4G ram, and 60G of drive space. I used an Ubuntu server build as a base and <a href="https://www.azuracast.com/docs/getting-started/installation/docker/">this</a> 
+            tutorial to install Azurasast in a Docker container. Using a Cloudflare tunnel connected to my server, I set up radio.ryderja.com to the VM's ip and the https port
+            port for Icecast. Using that url you could connect to the stream using an IPTV program like VLC's network stream to connect and listen to it directly with the help of a page rule in Cloudflare.
+            AzuraCast also includes a public page you can connect to in you browser that looks more pleasing than any I can make up easily so I added that as well at <a href="pubradio.ryderja.com">pubradio.ryderja.com</a>.
+        </p>
+        </div>
     </body>
 </html>

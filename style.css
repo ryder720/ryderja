@@ -26,6 +26,10 @@ h2, .radio {
     grid-row: 3 / 3;
 }
 
+.project {
+    padding: 5px;
+}
+
 ul, .menu {
     display: grid;
     grid-template-columns: auto auto auto;
