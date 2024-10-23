@@ -11,6 +11,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="radio.html">Radio</a></li>
+                <li><a href="http://mud.ryderja.com">MUD</a></li>
                 <li><a href="https://github.com/ryder720" target="_blank">Github</a></li>
             </ul>
         </div>
@@ -30,8 +31,24 @@
             My working setup ended up consisting of a vm using 4 logical cores, 4G ram, and 60G of drive space. I used an Ubuntu server build as a base and <a href="https://www.azuracast.com/docs/getting-started/installation/docker/">this</a> 
             tutorial to install Azurasast in a Docker container. Using a Cloudflare tunnel connected to my server, I set up radio.ryderja.com to the VM's ip and the https port
             port for Icecast. Using that url you could connect to the stream using an IPTV program like VLC's network stream to connect and listen to it directly with the help of a page rule in Cloudflare.
-            AzuraCast also includes a public page you can connect to in you browser that looks more pleasing than any I can make up easily so I added that as well at <a href="https://pubradio.ryderja.com">pubradio.ryderja.com</a>.
+            AzuraCast also includes a public page you can connect to in you browser that looks more pleasing than any I can make up easily so I added that as well at <a href="https://pubradio.ryderja.com">pubradio.ryderja.com</a>. <br>
         </p>
         </div>
+        <div class="project">
+            <h2>Project: MUD</h2>
+            <p>
+                A Multi User Dungeon is an genre of gaming lost to time. With advancements to graphics being the biggest focus of gaming technology in the past couple decades, along with the ease of connecting to other people through social media, 
+                a text based game that can hold a few hundred people at a time was bound to be left in the dust. Replaced with instant access to peers through X, Facebook, Reddit, etc, while the gaming aspect was superseded with great looking social spaces in MMOs like Final Fantasy XIV, 
+                World of Warcraft, and Destiny. Despite that, MUDs have a very dedicated and experienced userbase whom have created and maintained amazing tools that can be used to build and operate a MUD in an afternoon. 
+            </p>
+            <p>
+                TODO:
+                Points for this section
+                * MUDs use telnet to communicate
+                * Cloudflare tunnel's limitations
+                * Choosing a VPS
+                * Nginx reverse proxy to forward port 80 requests to 4002
+            </p>
+            </div>
     </body>
 </html>
