@@ -37,17 +37,19 @@
         <div class="project">
             <h2>Project: MUD</h2>
             <p>
-                A Multi User Dungeon is an genre of gaming lost to time. With advancements to graphics being the biggest focus of gaming technology in the past couple decades, along with the ease of connecting to other people through social media, 
+                Multi User Dungeon is a genre of gaming lost to time. With advancements in graphics being the biggest focus of gaming technology in the past couple decades, along with the ease of connecting to other people through social media, 
                 a text based game that can hold a few hundred people at a time was bound to be left in the dust. Replaced with instant access to peers through X, Facebook, Reddit, etc, while the gaming aspect was superseded with great looking social spaces in MMOs like Final Fantasy XIV, 
-                World of Warcraft, and Destiny. Despite that, MUDs have a very dedicated and experienced userbase whom have created and maintained amazing tools that can be used to build and operate a MUD in an afternoon. 
+                World of Warcraft, and Destiny. Despite that, MUDs have a very dedicated and experienced userbase whom have created and maintained amazing tools that can be used to build and operate a MUD in an afternoon. I have no real connection to MUDs as by the time I got into PC
+                gaming the graphics race had already started. Microsoft's Xbox 360 and Sony's Playstation 3 were bringing HD gaming to the home, and websites like Twitter, Myspace, and Facebook were huge amoung people my age. The first time I'd even heard of a MUD was through
+                YouTube where it was used to give context then passed by to talk about bigger and better things.
             </p>
             <p>
-                TODO:
-                Points for this section
-                * MUDs use telnet to communicate
-                * Cloudflare tunnel's limitations
-                * Choosing a VPS
-                * Nginx reverse proxy to forward port 80 requests to 4002
+                For software I'm using Evennia, a Python based MUD engine. Python is a laungage I feel very comfortable with so along with many recomendations when searching for a starting point on this project, I felt that it was a good choice.
+                One of the first things I needed to concider was serving the game to the internet. I try to expose as little direct internet traffic to my server as possible and to do that I use Cloudflare's Tunnels. Unfortunately those tunnels don't support telnet traffic, which
+                is what is how a client would communicate to a MUD server. With this in mind I decided it was time to rent a VPS. Setting up Evennia on the VPS was a bit challenging in ways I haven't had to deal with before while using my own hardware.
+                One challenge I never knew I would have to overcome is using the command line to choose which version of python I needed. One issue at the time of writing with the current Evennia pip package is that a dependancy doesn't work on the latest version 
+                of python 3. I had to use a software called pyenv to install specific version. Another problem I came across was Evennia's use of 4002 as the default http port. This fix was easy. I've been meaning to try out Nginx to use as a reverse proxy
+                but exposing my home network isn't really high on my list of priorities.
             </p>
             </div>
     </body>
