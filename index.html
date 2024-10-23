@@ -47,9 +47,9 @@
                 For software I'm using Evennia, a Python based MUD engine. Python is a laungage I feel very comfortable with so along with many recomendations when searching for a starting point on this project, I felt that it was a good choice.
                 One of the first things I needed to concider was serving the game to the internet. I try to expose as little direct internet traffic to my server as possible and to do that I use Cloudflare's Tunnels. Unfortunately those tunnels don't support telnet traffic, which
                 is what is how a client would communicate to a MUD server. With this in mind I decided it was time to rent a VPS. Setting up Evennia on the VPS was a bit challenging in ways I haven't had to deal with before while using my own hardware.
-                One challenge I never knew I would have to overcome is using the command line to choose which version of python I needed. One issue at the time of writing with the current Evennia pip package is that a dependancy doesn't work on the latest version 
+                One challenge I never knew I would have to overcome is using the command line to choose which version of python I needed. One issue, at the time of writing this, is with the current Evennia pip package. While installing, I found that a dependancy doesn't work on the latest version 
                 of python 3. I had to use a software called pyenv to install specific version. Another problem I came across was Evennia's use of 4002 as the default http port. This fix was easy. I've been meaning to try out Nginx to use as a reverse proxy
-                but exposing my home network isn't really high on my list of priorities.
+                but exposing my home network isn't really high on my list of priorities. Using Nginx to proxy 4002 to 80 is one simple config file.
             </p>
             </div>
     </body>
