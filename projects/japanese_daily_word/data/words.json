@@ -1,0 +1,452 @@
+[
+    {
+        "word_ja": "今日",
+        "reading": "きょう",
+        "romaji": "Kyou",
+        "definition_en": "Today",
+        "example_ja": "今日はいい天気ですね。",
+        "example_romaji": "Kyou wa ii tenki desu ne.",
+        "example_translation_en": "The weather is nice today, isn't it?"
+    },
+    {
+        "word_ja": "明日",
+        "reading": "あした",
+        "romaji": "Ashita",
+        "definition_en": "Tomorrow",
+        "example_ja": "明日、映画を見に行きます。",
+        "example_romaji": "Ashita, eiga o mi ni ikimasu.",
+        "example_translation_en": "I will go to see a movie tomorrow."
+    },
+    {
+        "word_ja": "昨日",
+        "reading": "きのう",
+        "romaji": "Kinou",
+        "definition_en": "Yesterday",
+        "example_ja": "昨日は雨でした。",
+        "example_romaji": "Kinou wa ame deshita.",
+        "example_translation_en": "It was rainy yesterday."
+    },
+    {
+        "word_ja": "ありがとう",
+        "reading": "ありがとう",
+        "romaji": "Arigatou",
+        "definition_en": "Thank you",
+        "example_ja": "手伝ってくれてありがとう。",
+        "example_romaji": "Tetsudatte kurete arigatou.",
+        "example_translation_en": "Thank you for helping me."
+    },
+    {
+        "word_ja": "おはようございます",
+        "reading": "おはようございます",
+        "romaji": "Ohayou gozaimasu",
+        "definition_en": "Good morning",
+        "example_ja": "おはようございます、先生。",
+        "example_romaji": "Ohayou gozaimasu, sensei.",
+        "example_translation_en": "Good morning, teacher."
+    },
+    {
+        "word_ja": "こんにちは",
+        "reading": "こんにちは",
+        "romaji": "Konnichiwa",
+        "definition_en": "Hello / Good afternoon",
+        "example_ja": "こんにちは、田中さん。",
+        "example_romaji": "Konnichiwa, Tanaka-san.",
+        "example_translation_en": "Hello, Mr./Ms. Tanaka."
+    },
+    {
+        "word_ja": "こんばんは",
+        "reading": "こんばんは",
+        "romaji": "Konbanwa",
+        "definition_en": "Good evening",
+        "example_ja": "こんばんは。お元気ですか。",
+        "example_romaji": "Konbanwa. O-genki desu ka.",
+        "example_translation_en": "Good evening. How are you?"
+    },
+    {
+        "word_ja": "さようなら",
+        "reading": "さようなら",
+        "romaji": "Sayounara",
+        "definition_en": "Goodbye",
+        "example_ja": "また明日、さようなら。",
+        "example_romaji": "Mata ashita, sayounara.",
+        "example_translation_en": "See you tomorrow, goodbye."
+    },
+    {
+        "word_ja": "はい",
+        "reading": "はい",
+        "romaji": "Hai",
+        "definition_en": "Yes",
+        "example_ja": "はい、分かりました。",
+        "example_romaji": "Hai, wakarimashita.",
+        "example_translation_en": "Yes, I understood."
+    },
+    {
+        "word_ja": "いいえ",
+        "reading": "いいえ",
+        "romaji": "Iie",
+        "definition_en": "No",
+        "example_ja": "いいえ、大丈夫です。",
+        "example_romaji": "Iie, daijoubu desu.",
+        "example_translation_en": "No, it's okay."
+    },
+    {
+        "word_ja": "水",
+        "reading": "みず",
+        "romaji": "Mizu",
+        "definition_en": "Water",
+        "example_ja": "水を一杯ください。",
+        "example_romaji": "Mizu o ippai kudasai.",
+        "example_translation_en": "Please give me a glass of water."
+    },
+    {
+        "word_ja": "食べる",
+        "reading": "たべる",
+        "romaji": "Taberu",
+        "definition_en": "To eat",
+        "example_ja": "寿司を食べたいです。",
+        "example_romaji": "Sushi o tabetai desu.",
+        "example_translation_en": "I want to eat sushi."
+    },
+    {
+        "word_ja": "飲む",
+        "reading": "のむ",
+        "romaji": "Nomu",
+        "definition_en": "To drink",
+        "example_ja": "コーヒーを飲みますか。",
+        "example_romaji": "Koohii o nomimasu ka.",
+        "example_translation_en": "Do you drink coffee?"
+    },
+    {
+        "word_ja": "行く",
+        "reading": "いく",
+        "romaji": "Iku",
+        "definition_en": "To go",
+        "example_ja": "京都へ行きました。",
+        "example_romaji": "Kyouto e ikimashita.",
+        "example_translation_en": "I went to Kyoto."
+    },
+    {
+        "word_ja": "見る",
+        "reading": "みる",
+        "romaji": "Miru",
+        "definition_en": "To see / To watch",
+        "example_ja": "テレビを見ます。",
+        "example_romaji": "Terebi o mimasu.",
+        "example_translation_en": "I watch TV."
+    },
+    {
+        "word_ja": "好き",
+        "reading": "すき",
+        "romaji": "Suki",
+        "definition_en": "Like / Fond of",
+        "example_ja": "猫が好きです。",
+        "example_romaji": "Neko ga suki desu.",
+        "example_translation_en": "I like cats."
+    },
+    {
+        "word_ja": "日本",
+        "reading": "にほん",
+        "romaji": "Nihon",
+        "definition_en": "Japan",
+        "example_ja": "日本は美しい国です。",
+        "example_romaji": "Nihon wa utsukushii kuni desu.",
+        "example_translation_en": "Japan is a beautiful country."
+    },
+    {
+        "word_ja": "日本語",
+        "reading": "にほんご",
+        "romaji": "Nihongo",
+        "definition_en": "Japanese language",
+        "example_ja": "日本語を勉強しています。",
+        "example_romaji": "Nihongo o benkyou shite imasu.",
+        "example_translation_en": "I am studying Japanese."
+    },
+    {
+        "word_ja": "学生",
+        "reading": "がくせい",
+        "romaji": "Gakusei",
+        "definition_en": "Student",
+        "example_ja": "私は学生です。",
+        "example_romaji": "Watashi wa gakusei desu.",
+        "example_translation_en": "I am a student."
+    },
+    {
+        "word_ja": "友達",
+        "reading": "ともだち",
+        "romaji": "Tomodachi",
+        "definition_en": "Friend",
+        "example_ja": "彼は私の友達です。",
+        "example_romaji": "Kare wa watashi no tomodachi desu.",
+        "example_translation_en": "He is my friend."
+    },
+    {
+        "word_ja": "時間",
+        "reading": "じかん",
+        "romaji": "Jikan",
+        "definition_en": "Time / Hour",
+        "example_ja": "時間はありますか。",
+        "example_romaji": "Jikan wa arimasu ka.",
+        "example_translation_en": "Do you have time?"
+    },
+    {
+        "word_ja": "家",
+        "reading": "いえ / うち",
+        "romaji": "Ie / Uchi",
+        "definition_en": "House / Home",
+        "example_ja": "私の家は大きいです。",
+        "example_romaji": "Watashi no ie wa ookii desu.",
+        "example_translation_en": "My house is big."
+    },
+    {
+        "word_ja": "学校",
+        "reading": "がっこう",
+        "romaji": "Gakkou",
+        "definition_en": "School",
+        "example_ja": "毎日学校へ行きます。",
+        "example_romaji": "Mainichi gakkou e ikimasu.",
+        "example_translation_en": "I go to school every day."
+    },
+    {
+        "word_ja": "駅",
+        "reading": "えき",
+        "romaji": "Eki",
+        "definition_en": "Station (train)",
+        "example_ja": "駅はどこですか。",
+        "example_romaji": "Eki wa doko desu ka.",
+        "example_translation_en": "Where is the station?"
+    },
+    {
+        "word_ja": "店",
+        "reading": "みせ",
+        "romaji": "Mise",
+        "definition_en": "Shop / Store",
+        "example_ja": "あの店で買い物をします。",
+        "example_romaji": "Ano mise de kaimono o shimasu.",
+        "example_translation_en": "I will shop at that store."
+    },
+    {
+        "word_ja": "美味しい",
+        "reading": "おいしい",
+        "romaji": "Oishii",
+        "definition_en": "Delicious / Tasty",
+        "example_ja": "このケーキは美味しいです。",
+        "example_romaji": "Kono keeki wa oishii desu.",
+        "example_translation_en": "This cake is delicious."
+    },
+    {
+        "word_ja": "楽しい",
+        "reading": "たのしい",
+        "romaji": "Tanoshii",
+        "definition_en": "Fun / Enjoyable",
+        "example_ja": "パーティーは楽しかったです。",
+        "example_romaji": "Paatii wa tanoshikatta desu.",
+        "example_translation_en": "The party was fun."
+    },
+    {
+        "word_ja": "大きい",
+        "reading": "おおきい",
+        "romaji": "Ookii",
+        "definition_en": "Big / Large",
+        "example_ja": "大きな犬がいます。",
+        "example_romaji": "Ookina inu ga imasu.",
+        "example_translation_en": "There is a big dog."
+    },
+    {
+        "word_ja": "小さい",
+        "reading": "ちいさい",
+        "romaji": "Chiisai",
+        "definition_en": "Small / Little",
+        "example_ja": "これは小さいリンゴです。",
+        "example_romaji": "Kore wa chiisai ringo desu.",
+        "example_translation_en": "This is a small apple."
+    },
+    {
+        "word_ja": "新しい",
+        "reading": "あたらしい",
+        "romaji": "Atarashii",
+        "definition_en": "New",
+        "example_ja": "新しい車を買いました。",
+        "example_romaji": "Atarashii kuruma o kaimashita.",
+        "example_translation_en": "I bought a new car."
+    },
+    {
+        "word_ja": "古い",
+        "reading": "ふるい",
+        "romaji": "Furui",
+        "definition_en": "Old (for things, not people)",
+        "example_ja": "この本は古いです。",
+        "example_romaji": "Kono hon wa furui desu.",
+        "example_translation_en": "This book is old."
+    },
+    {
+        "word_ja": "話す",
+        "reading": "はなす",
+        "romaji": "Hanasu",
+        "definition_en": "To speak / To talk",
+        "example_ja": "英語を話せますか。",
+        "example_romaji": "Eigo o hanasemasu ka.",
+        "example_translation_en": "Can you speak English?"
+    },
+    {
+        "word_ja": "書く",
+        "reading": "かく",
+        "romaji": "Kaku",
+        "definition_en": "To write",
+        "example_ja": "手紙を書きます。",
+        "example_romaji": "Tegami o kakimasu.",
+        "example_translation_en": "I will write a letter."
+    },
+    {
+        "word_ja": "読む",
+        "reading": "よむ",
+        "romaji": "Yomu",
+        "definition_en": "To read",
+        "example_ja": "毎日新聞を読みます。",
+        "example_romaji": "Mainichi shinbun o yomimasu.",
+        "example_translation_en": "I read the newspaper every day."
+    },
+    {
+        "word_ja": "聞く",
+        "reading": "きく",
+        "romaji": "Kiku",
+        "definition_en": "To listen / To hear / To ask",
+        "example_ja": "音楽を聞くのが好きです。",
+        "example_romaji": "Ongaku o kiku no ga suki desu.",
+        "example_translation_en": "I like listening to music."
+    },
+    {
+        "word_ja": "買う",
+        "reading": "かう",
+        "romaji": "Kau",
+        "definition_en": "To buy",
+        "example_ja": "パンを買いました。",
+        "example_romaji": "Pan o kaimashita.",
+        "example_translation_en": "I bought bread."
+    },
+    {
+        "word_ja": "待つ",
+        "reading": "まつ",
+        "romaji": "Matsu",
+        "definition_en": "To wait",
+        "example_ja": "ここで待ってください。",
+        "example_romaji": "Koko de matte kudasai.",
+        "example_translation_en": "Please wait here."
+    },
+    {
+        "word_ja": "分かる",
+        "reading": "わかる",
+        "romaji": "Wakaru",
+        "definition_en": "To understand",
+        "example_ja": "日本語が分かりますか。",
+        "example_romaji": "Nihongo ga wakarimasu ka.",
+        "example_translation_en": "Do you understand Japanese?"
+    },
+    {
+        "word_ja": "どういたしまして",
+        "reading": "どういたしまして",
+        "romaji": "Dou itashimashite",
+        "definition_en": "You're welcome",
+        "example_ja": "「ありがとう。」「どういたしまして。」",
+        "example_romaji": "'Arigatou.' 'Dou itashimashite.'",
+        "example_translation_en": "'Thank you.' 'You're welcome.'"
+    },
+    {
+        "word_ja": "すみません",
+        "reading": "すみません",
+        "romaji": "Sumimasen",
+        "definition_en": "Excuse me / I'm sorry / Thank you (for your trouble)",
+        "example_ja": "すみません、これはいくらですか。",
+        "example_romaji": "Sumimasen, kore wa ikura desu ka.",
+        "example_translation_en": "Excuse me, how much is this?"
+    },
+    {
+        "word_ja": "ごめんなさい",
+        "reading": "ごめんなさい",
+        "romaji": "Gomen nasai",
+        "definition_en": "I'm sorry (more personal apology)",
+        "example_ja": "遅れてごめんなさい。",
+        "example_romaji": "Okurete gomen nasai.",
+        "example_translation_en": "I'm sorry for being late."
+    },
+    {
+        "word_ja": "お願いします",
+        "reading": "おねがいします",
+        "romaji": "Onegaishimasu",
+        "definition_en": "Please (when requesting something)",
+        "example_ja": "これを一つお願いします。",
+        "example_romaji": "Kore o hitotsu onegaishimasu.",
+        "example_translation_en": "One of these, please."
+    },
+    {
+        "word_ja": "大丈夫",
+        "reading": "だいじょうぶ",
+        "romaji": "Daijoubu",
+        "definition_en": "Okay / All right / No problem",
+        "example_ja": "大丈夫ですか。",
+        "example_romaji": "Daijoubu desu ka.",
+        "example_translation_en": "Are you okay?"
+    },
+    {
+        "word_ja": "天気",
+        "reading": "てんき",
+        "romaji": "Tenki",
+        "definition_en": "Weather",
+        "example_ja": "今日の天気はどうですか。",
+        "example_romaji": "Kyou no tenki wa dou desu ka.",
+        "example_translation_en": "How is the weather today?"
+    },
+    {
+        "word_ja": "雨",
+        "reading": "あめ",
+        "romaji": "Ame",
+        "definition_en": "Rain",
+        "example_ja": "雨が降っています。",
+        "example_romaji": "Ame ga futte imasu.",
+        "example_translation_en": "It is raining."
+    },
+    {
+        "word_ja": "晴れ",
+        "reading": "はれ",
+        "romaji": "Hare",
+        "definition_en": "Clear weather / Sunny",
+        "example_ja": "明日は晴れでしょう。",
+        "example_romaji": "Ashita wa hare deshou.",
+        "example_translation_en": "It will probably be sunny tomorrow."
+    },
+    {
+        "word_ja": "左",
+        "reading": "ひだり",
+        "romaji": "Hidari",
+        "definition_en": "Left (direction)",
+        "example_ja": "左に曲がってください。",
+        "example_romaji": "Hidari ni magatte kudasai.",
+        "example_translation_en": "Please turn left."
+    },
+    {
+        "word_ja": "右",
+        "reading": "みぎ",
+        "romaji": "Migi",
+        "definition_en": "Right (direction)",
+        "example_ja": "右側に見えます。",
+        "example_romaji": "Migigawa ni miemasu.",
+        "example_translation_en": "You can see it on the right side."
+    },
+    {
+        "word_ja": "たくさん",
+        "reading": "たくさん",
+        "romaji": "Takusan",
+        "definition_en": "Many / A lot",
+        "example_ja": "リンゴをたくさん買いました。",
+        "example_romaji": "Ringo o takusan kaimashita.",
+        "example_translation_en": "I bought a lot of apples."
+    },
+    {
+        "word_ja": "少し",
+        "reading": "すこし",
+        "romaji": "Sukoshi",
+        "definition_en": "A little / A few",
+        "example_ja": "もう少し待ってください。",
+        "example_romaji": "Mou sukoshi matte kudasai.",
+        "example_translation_en": "Please wait a little longer."
+    }
+]
