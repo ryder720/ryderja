@@ -1,56 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ryderja Home</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="radio.html">Radio</a></li>
-                <li><a href="http://mud.ryderja.com">MUD</a></li>
-                <li><a href="https://github.com/ryder720" target="_blank">Github</a></li>
-            </ul>
-        </div>
-        <h1>Welcome! I'm Ryder Anderson!</h1>
-        <p>I have projects up on the menu bar along with my GitHub. I'll add more project links
-            under or on another page.
-        </p>
-        <div class="project">
-        <h2>Project: Online Radio Station</h2>
-        <p>
-            I've started an online radio station to play ambient music during gaming sessions. It started as just an ice cast server but I ran into quality 
-            of life issues if I ever wanted to let my friends try out dj'ing or requesting songs. I looked around for a more all in one solution and ran into 
-            AzuraCast. I debated using a VPS to host it as plenty of VPS hosts (Linode, DigitalOcean, etc.) have one click solutions to launching it. My overall 
-            goal wasn't to fight my server trying to make a Dockerup file that would work with my Unraid setup.
-        </p>
-        <p>
-            My working setup ended up consisting of a vm using 4 logical cores, 4G ram, and 60G of drive space. I used an Ubuntu server build as a base and <a href="https://www.azuracast.com/docs/getting-started/installation/docker/">this</a> 
-            tutorial to install Azurasast in a Docker container. Using a Cloudflare tunnel connected to my server, I set up radio.ryderja.com to the VM's ip and the https port
-            port for Icecast. Using that url you could connect to the stream using an IPTV program like VLC's network stream to connect and listen to it directly with the help of a page rule in Cloudflare.
-            AzuraCast also includes a public page you can connect to in you browser that looks more pleasing than any I can make up easily so I added that as well at <a href="https://pubradio.ryderja.com">pubradio.ryderja.com</a>. <br>
-        </p>
-        </div>
-        <div class="project">
-            <h2>Project: MUD</h2>
-            <p>
-                Multi User Dungeon is a genre of gaming lost to time. With advancements in graphics being the biggest focus of gaming technology in the past couple decades, along with the ease of connecting to other people through social media, 
-                a text based game that can hold a few hundred people at a time was bound to be left in the dust. Replaced with instant access to peers through X, Facebook, Reddit, etc, while the gaming aspect was superseded with great looking social spaces in MMOs like Final Fantasy XIV, 
-                World of Warcraft, and Destiny. Despite that, MUDs have a very dedicated and experienced userbase whom have created and maintained amazing tools that can be used to build and operate a MUD in an afternoon. I have no real connection to MUDs as by the time I got into PC
-                gaming the graphics race had already started. Microsoft's Xbox 360 and Sony's Playstation 3 were bringing HD gaming to the home, and websites like Twitter, Myspace, and Facebook were huge amoung people my age. The first time I'd even heard of a MUD was through
-                YouTube where it was used to give context then passed by to talk about bigger and better things.
-            </p>
-            <p>
-                For software I'm using Evennia, a Python based MUD engine. Python is a laungage I feel very comfortable with so along with many recomendations when searching for a starting point on this project, I felt that it was a good choice.
-                One of the first things I needed to concider was serving the game to the internet. I try to expose as little direct internet traffic to my server as possible and to do that I use Cloudflare's Tunnels. Unfortunately those tunnels don't support telnet traffic, which
-                is what is how a client would communicate to a MUD server. With this in mind I decided it was time to rent a VPS. Setting up Evennia on the VPS was a bit challenging in ways I haven't had to deal with before while using my own hardware.
-                One challenge I never knew I would have to overcome is using the command line to choose which version of python I needed. One issue, at the time of writing this, is with the current Evennia pip package. While installing, I found that a dependancy doesn't work on the latest version 
-                of python 3. I had to use a software called pyenv to install specific version. Another problem I came across was Evennia's use of 4002 as the default http port. This fix was easy. I've been meaning to try out Nginx to use as a reverse proxy
-                but exposing my home network isn't really high on my list of priorities. Using Nginx to proxy 4002 to 80 is one simple config file.
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ryderja</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Ryder Anderson</h1>
+        <p>A collection of my web app projects and experiments.</p>
+    </header>
+
+    <main>
+        <section id="projects-list">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <!-- 
+                Example Project Card:
+                <div class="project-card">
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of the project.</p>
+                    <a href="projects/project1/index.html">View Project</a>
+                </div>
+                -->
+                <p>Your projects will be listed here. Add them to the <code>/projects</code> directory and link them from this page.</p>
+                <!-- Add more project cards as you create projects -->
             </div>
-    </body>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Ryder Anderson. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
