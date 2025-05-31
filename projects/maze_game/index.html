@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Maze Challenge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../professional.html">Professional</a></li>
+                <!-- Add more links here as your site grows -->
+            </ul>
+        </nav>
+        <h1>Word Maze Challenge</h1>
+    </header>
+
+    <div class="container">
+        <h1>Word Maze Challenge</h1>
+
+        <div class="game-controls">
+            <label for="difficulty">Difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button id="startGame">Start Game</button>
+        </div>
+
+        <div class="game-area">
+            <canvas id="mazeCanvas"></canvas>
+            <div class="game-info">
+                <div id="timer">Time: 0s</div>
+                <div id="wordListHint">
+                    <h2>Possible Words:</h2>
+                    <ul id="hintList"></ul>
+                </div>
+                <div id="collectedLetters">
+                    <h2>Collected Letters:</h2>
+                    <span id="letters"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="leaderboard">
+            <h2>Leaderboard</h2>
+            <ul id="leaderboardList">
+                <!-- Scores will be populated here -->
+            </ul>
+        </div>
+
+        <div class="game-instructions">
+            <h2>How to Play</h2>
+            <p>Use <strong>Arrow Keys</strong> or <strong>WASD</strong> to move your character (Blue Square) through the maze.</p>
+            <p>Collect <strong>Letters</strong> (Green Text) scattered in the maze.</p>
+            <p>Approach <strong>Doors</strong> (Red Squares) and a dialog will appear. Enter the correct word using your collected letters to unlock it. Opened doors turn Gold.</p>
+            <p>The list of <strong>Possible Words</strong> on the right will initially be hidden by asterisks. Collected letters will reveal themselves in this list.</p>
+            <p>The goal is to <strong>unlock all doors</strong> to complete the level!</p>
+            <p>Your view is limited! Walls will block your line of sight.</p>
+        </div>
+
+        <div class="game-legend">
+            <h2>Legend</h2>
+            <ul>
+                <li><span class="legend-color" style="background-color: blue;"></span> Player</li>
+                <li><span class="legend-color" style="background-color: white; border: 1px solid #ccc;"></span> Path</li>
+                <li><span class="legend-color" style="background-color: black;"></span> Wall</li>
+                <li><span class="legend-color" style="background-color: green;"></span> Letter (on Path)</li>
+                <li><span class="legend-color" style="background-color: red;"></span> Locked Door</li>
+                <li><span class="legend-color" style="background-color: #FFD700;"></span> Open Door</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="doorModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeDoorModal">&times;</span>
+            <h2>Unlock Door</h2>
+            <p>Enter the word to unlock this door:</p>
+            <input type="text" id="doorWordInput" placeholder="Enter word...">
+            <button id="submitDoorWord">Unlock</button>
+            <p id="doorMessage"></p>
+        </div>
+    </div>
+
+    <script src="js/words.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
