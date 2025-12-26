@@ -40,4 +40,24 @@ Key files and directories:
     </div>
     ```
 
+## Adding a New Blog Post
+
+1.  **Create Post File:** Create a new markdown file in `posts/entries/` (e.g., `posts/entries/my-new-post.md`).
+2.  **Add Frontmatter:** Start the file with YAML frontmatter containing metadata:
+    ```yaml
+    ---
+    title: "My New Post"
+    date: "2025-01-01"
+    description: "A short summary of the post."
+    tags: ["tech", "life"]
+    ---
+    ```
+3.  **Register Post:** Add the *filename* (without extension) to `posts/index.json`:
+    ```json
+    [
+        "existing-post",
+        "my-new-post"
+    ]
+    ```
+
 
